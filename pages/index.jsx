@@ -10,7 +10,7 @@ const Home = () => {
 			</Head>
 			<header className='hero'>
 				<div className='container'>
-					<h1 className='main-title'>Amazing shoes at an amazing price</h1>
+					<h1 className='hero-title'>Amazing shoes at an amazing price</h1>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
 						ipsam natus excepturi soluta dolore blanditiis ab voluptatibus,
@@ -18,7 +18,7 @@ const Home = () => {
 						ipsum delectus maiores quos.
 					</p>
 					<Link href='/'>
-						<a className='btn'>View prodcuts</a>
+						<a className='btn'>View products</a>
 					</Link>
 				</div>
 			</header>
