@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 const Home = () => {
 	return (
@@ -16,7 +17,9 @@ const Home = () => {
 						ipsa, distinctio quis quasi maiores. Nisi at corrupti, suscipit
 						ipsum delectus maiores quos.
 					</p>
-					<a href='#' className='btn'></a>
+					<Link href='/'>
+						<a className='btn'>View prodcuts</a>
+					</Link>
 				</div>
 			</header>
 			<main>
@@ -24,7 +27,7 @@ const Home = () => {
 					<div className='container'>
 						<h2 className='section-title'>Featured products</h2>
 						<div className='row'>
-							<a href='#' className='featured__item'>
+							<a href='/' className='featured__item'>
 								<img
 									src='/images/shoe-4.png'
 									alt='A beautiful shoe'
@@ -32,7 +35,7 @@ const Home = () => {
 								/>
 								<p className='featured__details'></p>
 							</a>
-							<a href='#' className='featured__item'>
+							<a href='/' className='featured__item'>
 								<img
 									src='/images/shoe-5.png'
 									alt='A beautiful shoe'
@@ -40,7 +43,7 @@ const Home = () => {
 								/>
 								<p className='featured__details'></p>
 							</a>
-							<a href='#' className='featured__item'>
+							<a href='/' className='featured__item'>
 								<img
 									src='/images/shoe-6.png'
 									alt='A beautiful shoe'
@@ -51,7 +54,7 @@ const Home = () => {
 						</div>
 					</div>
 				</section>
-				<section className='products'>
+				<section className='products' id='#products'>
 					<div className='conatiner'>
 						<h2 className='section-title'>Our products</h2>
 						<article className='product'>
@@ -65,7 +68,9 @@ const Home = () => {
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Provident accusamus labore placeat.
 							</p>
-							<a href='#' className='btn'></a>
+							<a href='/' className='btn'>
+								View details
+							</a>
 						</article>
 						<article className='product'>
 							<img
@@ -79,7 +84,9 @@ const Home = () => {
 								eos voluptates consequuntur nesciunt enim excepturi obcaecati
 								repudiandae.
 							</p>
-							<a href='#' className='btn'></a>
+							<a href='/' className='btn'>
+								View details
+							</a>
 						</article>
 						<article className='product'>
 							<img
@@ -88,10 +95,12 @@ const Home = () => {
 								className='product__img'
 							/>
 							<h3 className='product__title'>A shoe to fall in love with</h3>
-							<p className='product_description'></p>
-							<a href='#' className='btn'>
+							<p className='product_description'>
 								Consectetur laborum ratione accusamus ipsam accusantium dolorum
 								officiis, illum exercitationem, nisi labore eveniet!
+							</p>
+							<a href='/' className='btn'>
+								View details
 							</a>
 						</article>
 					</div>

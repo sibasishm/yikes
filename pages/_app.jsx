@@ -1,4 +1,4 @@
-import '../styles/index.css';
+import '../styles/main.min.css';
 
 const App = ({ Component, pageProps }) => {
 	return <Component {...pageProps} />;
