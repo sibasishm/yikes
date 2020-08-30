@@ -69,7 +69,7 @@ const Home = () => {
 								alt='A beautiful shoe'
 								className='product__img'
 							/>
-							<h3 className='product__title'>A really nice shoe</h3>
+							<h3 className='product__title'>Super flexible</h3>
 							<p className='product_description'>
 								Totam consectetur a atque natus dolorem distinctio eveniet ad
 								eos voluptates consequuntur nesciunt enim excepturi.
@@ -84,10 +84,10 @@ const Home = () => {
 								alt='A beautiful shoe'
 								className='product__img'
 							/>
-							<h3 className='product__title'>The perfect shoe</h3>
+							<h3 className='product__title'>Max comfort</h3>
 							<p className='product_description'>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Provident accusamus labore placeat.
+								Provident accusamus labore placeat excepturi.
 							</p>
 							<a href='/' className='btn'>
 								Buy now
@@ -99,7 +99,7 @@ const Home = () => {
 								alt='A beautiful shoe'
 								className='product__img'
 							/>
-							<h3 className='product__title'>A shoe to fall in love with</h3>
+							<h3 className='product__title'>Long lasting</h3>
 							<p className='product_description'>
 								Consectetur laborum ratione accusamus ipsam accusantium dolorum
 								officiis, illum exercitationem, nisi labore eveniet!
