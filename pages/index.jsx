@@ -9,7 +9,7 @@ const Home = () => {
 				<link rel='stylesheet' href='https://rsms.me/inter/inter.css' />
 			</Head>
 			<header className='hero'>
-				<div className='container'>
+				<div className='container spacing'>
 					<h1 className='hero-title'>Amazing shoes at an amazing price</h1>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
@@ -69,7 +69,7 @@ const Home = () => {
 								Provident accusamus labore placeat.
 							</p>
 							<a href='/' className='btn'>
-								View details
+								Buy now
 							</a>
 						</article>
 						<article className='product'>
@@ -85,7 +85,7 @@ const Home = () => {
 								repudiandae.
 							</p>
 							<a href='/' className='btn'>
-								View details
+								Buy now
 							</a>
 						</article>
 						<article className='product'>
@@ -100,7 +100,7 @@ const Home = () => {
 								officiis, illum exercitationem, nisi labore eveniet!
 							</p>
 							<a href='/' className='btn'>
-								View details
+								Buy now
 							</a>
 						</article>
 					</div>
