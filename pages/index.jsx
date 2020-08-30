@@ -61,15 +61,30 @@ const Home = () => {
 					</div>
 				</section>
 				<section className='products'>
-					<div className='conatiner'>
+					<div className='container'>
 						<h2 className='section-title'>Our products</h2>
-						<article className='product'>
+						<article className='product shoe-red spacing'>
 							<img
 								src='/images/shoe-1.png'
 								alt='A beautiful shoe'
 								className='product__img'
 							/>
 							<h3 className='product__title'>A really nice shoe</h3>
+							<p className='product_description'>
+								Totam consectetur a atque natus dolorem distinctio eveniet ad
+								eos voluptates consequuntur nesciunt enim excepturi.
+							</p>
+							<a href='/' className='btn'>
+								Buy now
+							</a>
+						</article>
+						<article className='product shoe-white spacing'>
+							<img
+								src='/images/shoe-2.png'
+								alt='A beautiful shoe'
+								className='product__img'
+							/>
+							<h3 className='product__title'>The perfect shoe</h3>
 							<p className='product_description'>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Provident accusamus labore placeat.
@@ -78,23 +93,7 @@ const Home = () => {
 								Buy now
 							</a>
 						</article>
-						<article className='product'>
-							<img
-								src='/images/shoe-2.png'
-								alt='A beautiful shoe'
-								className='product__img'
-							/>
-							<h3 className='product__title'>The perfect shoe</h3>
-							<p className='product_description'>
-								Totam consectetur a atque natus dolorem distinctio eveniet ad
-								eos voluptates consequuntur nesciunt enim excepturi obcaecati
-								repudiandae.
-							</p>
-							<a href='/' className='btn'>
-								Buy now
-							</a>
-						</article>
-						<article className='product'>
+						<article className='product shoe-blue spacing'>
 							<img
 								src='/images/shoe-3.png'
 								alt='A beautiful shoe'

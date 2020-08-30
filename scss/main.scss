@@ -78,9 +78,9 @@ section {
 .section-title {
 	margin-bottom: 3rem;
 	text-align: center;
-	text-transform: uppercase;
-	font-size: 2.5rem;
-	font-size: clamp(2rem, calc(2vw + 1rem), 3.5rem);
+	font-weight: 700;
+	font-size: 3rem;
+	font-size: clamp(2.5rem, calc(2vw + 1rem), 4rem);
 	line-height: 1;
 	color: #17353d;
 }
@@ -145,4 +145,45 @@ section {
 			margin-top: 1.25em;
 		}
 	}
+}
+
+.product {
+	--spacer: 1em;
+
+	background: linear-gradient(
+		135deg,
+		var(--clr-inner, pink),
+		var(--clr-outer, #7fffd4)
+	);
+	padding: 3em;
+	margin-bottom: 4em;
+	border-radius: 2em;
+	text-align: center;
+
+	&__title {
+		font-size: 3rem;
+		line-height: 1.1;
+	}
+
+	&__img {
+		margin: -5em 0 0 0;
+
+		@media (min-width: 45em) {
+		}
+	}
+}
+
+.shoe-red {
+	--clr-inner: #ffc95e;
+	--clr-outer: #bb88ff;
+	--clr-accent: #a1173c;
+}
+.shoe-white {
+	--clr-inner: #76ff89;
+	--clr-outer: #ff819c;
+}
+.shoe-blue {
+	--clr-inner: #74ffd1;
+	--clr-outer: #bf5fff;
+	--clr-accent: #16a878;
 }
