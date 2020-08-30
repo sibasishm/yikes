@@ -33,15 +33,9 @@ const Home = () => {
 									alt='A beautiful shoe'
 									className='featured__img'
 								/>
-								<p className='featured__details'></p>
-							</a>
-							<a href='/' className='featured__item'>
-								<img
-									src='/images/shoe-5.png'
-									alt='A beautiful shoe'
-									className='featured__img'
-								/>
-								<p className='featured__details'></p>
+								<p className='featured__details'>
+									<span>₹ 1999</span>Front Liner
+								</p>
 							</a>
 							<a href='/' className='featured__item'>
 								<img
@@ -49,12 +43,24 @@ const Home = () => {
 									alt='A beautiful shoe'
 									className='featured__img'
 								/>
-								<p className='featured__details'></p>
+								<p className='featured__details'>
+									<span>₹ 1799</span>Party Popper
+								</p>
+							</a>
+							<a href='/' className='featured__item'>
+								<img
+									src='/images/shoe-5.png'
+									alt='A beautiful shoe'
+									className='featured__img'
+								/>
+								<p className='featured__details featured__details-2'>
+									<span>₹ 1849</span>Forest Hiker
+								</p>
 							</a>
 						</div>
 					</div>
 				</section>
-				<section className='products' id='#products'>
+				<section className='products'>
 					<div className='conatiner'>
 						<h2 className='section-title'>Our products</h2>
 						<article className='product'>
