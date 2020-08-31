@@ -9,7 +9,7 @@ const Home = () => {
 				<link rel='stylesheet' href='https://rsms.me/inter/inter.css' />
 			</Head>
 			<header className='hero'>
-				<div className='container'>
+				<div className='container spacing'>
 					<h1 className='hero-title'>Amazing shoes at an amazing price</h1>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
@@ -33,15 +33,9 @@ const Home = () => {
 									alt='A beautiful shoe'
 									className='featured__img'
 								/>
-								<p className='featured__details'></p>
-							</a>
-							<a href='/' className='featured__item'>
-								<img
-									src='/images/shoe-5.png'
-									alt='A beautiful shoe'
-									className='featured__img'
-								/>
-								<p className='featured__details'></p>
+								<p className='featured__details'>
+									<span>₹ 1999</span>Front Liner
+								</p>
 							</a>
 							<a href='/' className='featured__item'>
 								<img
@@ -49,58 +43,69 @@ const Home = () => {
 									alt='A beautiful shoe'
 									className='featured__img'
 								/>
-								<p className='featured__details'></p>
+								<p className='featured__details'>
+									<span>₹ 1799</span>Party Popper
+								</p>
+							</a>
+							<a href='/' className='featured__item'>
+								<img
+									src='/images/shoe-5.png'
+									alt='A beautiful shoe'
+									className='featured__img'
+								/>
+								<p className='featured__details featured__details-2'>
+									<span>₹ 1849</span>Forest Hiker
+								</p>
 							</a>
 						</div>
 					</div>
 				</section>
-				<section className='products' id='#products'>
-					<div className='conatiner'>
+				<section className='products'>
+					<div className='container'>
 						<h2 className='section-title'>Our products</h2>
-						<article className='product'>
+						<article className='product shoe-red spacing'>
 							<img
 								src='/images/shoe-1.png'
 								alt='A beautiful shoe'
 								className='product__img'
 							/>
-							<h3 className='product__title'>A really nice shoe</h3>
+							<h3 className='product__title'>Super flexible</h3>
 							<p className='product_description'>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Provident accusamus labore placeat.
+								Totam consectetur a atque natus dolorem distinctio eveniet ad
+								eos voluptates consequuntur nesciunt enim excepturi.
 							</p>
 							<a href='/' className='btn'>
-								View details
+								Buy now
 							</a>
 						</article>
-						<article className='product'>
+						<article className='product shoe-white spacing'>
 							<img
 								src='/images/shoe-2.png'
 								alt='A beautiful shoe'
 								className='product__img'
 							/>
-							<h3 className='product__title'>The perfect shoe</h3>
+							<h3 className='product__title'>Max comfort</h3>
 							<p className='product_description'>
-								Totam consectetur a atque natus dolorem distinctio eveniet ad
-								eos voluptates consequuntur nesciunt enim excepturi obcaecati
-								repudiandae.
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Provident accusamus labore placeat excepturi.
 							</p>
 							<a href='/' className='btn'>
-								View details
+								Buy now
 							</a>
 						</article>
-						<article className='product'>
+						<article className='product shoe-blue spacing'>
 							<img
 								src='/images/shoe-3.png'
 								alt='A beautiful shoe'
 								className='product__img'
 							/>
-							<h3 className='product__title'>A shoe to fall in love with</h3>
+							<h3 className='product__title'>Long lasting</h3>
 							<p className='product_description'>
 								Consectetur laborum ratione accusamus ipsam accusantium dolorum
 								officiis, illum exercitationem, nisi labore eveniet!
 							</p>
 							<a href='/' className='btn'>
-								View details
+								Buy now
 							</a>
 						</article>
 					</div>
